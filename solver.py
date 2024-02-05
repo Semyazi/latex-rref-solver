@@ -115,5 +115,5 @@ if __name__ == "__main__":
     mtx = import_mtx('mtx.txt')
     latex = perform_gaussian_elimination(mtx)
 
-    with open("latex.txt", "w") as file:
+    with open("latex_out.tex", "w") as file:
         file.write(latex.strip())
